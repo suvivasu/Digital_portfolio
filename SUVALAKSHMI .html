@@ -1,0 +1,192 @@
+
+<!-- saved from url=(0050)file:///C:/Users/karthii/Documents/suvii/suvi.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>public class Main {
+    
+}
+
+
+
+
+
+    <title> SUVALAKSHMI - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 75%; /* Create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 75px; /* Adjust top position as needed */
+            left: 75px; /* Adjust left position as needed */
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+
+
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="file:///C:/Users/karthii/Downloads/WhatsApp%20Image%202023-10-26%20at%2010.29.18%20PM.jpeg.crdownload" alt="Profile Picture" class="profile-picture">
+            <h1>SUVALAKSHMI V</h1>
+            <p>Studying in Bachelor's degree in Computer Science at Alagapa Art's College - Karaikudi </p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/karthii/Documents/suvii/suvi.html#about">About</a></li>
+            <li><a href="file:///C:/Users/karthii/Documents/suvii/suvi.html#education">Education</a></li>
+            <li><a href="file:///C:/Users/karthii/Documents/suvii/suvi.html#skills">Skills</a></li>
+            <li><a href="file:///C:/Users/karthii/Documents/suvii/suvi.html#projects">Projects</a></li>
+            <li><a href="file:///C:/Users/karthii/Documents/suvii/suvi.html#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I'm Suvalakshmi, a BSc Computer Science Student. I have Knowledge about a wide range of programming Languages. My journy began with languages like python and java. l've since expanded my skills to include PHP, HTML, CSSand JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>Alagapa Govt_Art's College - Bachular's Of Computer Science, 3rd Year.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Microsoft Office Word, Excel, Power point and Cloud.</li>
+                <li>Basic Knowledge of Computer.</li>
+                <li>I'm well-versed in problem-solving skills, database management and debugging.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="file:///C:/Users/karthii/Documents/suvii/suvi.html#">Web Application Devalopment reprecent a significant milestone in my academic career.</a></li>
+                <li><a href="file:///C:/Users/karthii/Documents/suvii/suvi.html#">Naan mudhalvan Microsite Skill based Projects.</a></li>
+                <!-- Add more project links here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="file:///C:/Users/karthii/Downloads/Suvalakshmi_Resume1.pdf" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>© 2023 SUVALAKSHMI </p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+
+</body></html>
